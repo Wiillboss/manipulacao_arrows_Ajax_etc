@@ -12,3 +12,10 @@ let cartao = '123123123123';
 let ultimos_digitos = cartao.slice(-4); //pegando os ultimos 4 números do cartão
 let cartao_mascarado = ultimos_digitos.padStart(12, '*'); //
 console.log(`Este é o seu cartão: ${cartao_mascarado}?`);
+
+/*
+    JSON.stringify converte um código JSON para string
+    JSON.parse converte um código string para JSON
+
+    Exemplo de formato JSON: '{"nome": "Willian", "idade": 38}'
+*/
